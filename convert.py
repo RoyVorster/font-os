@@ -15,8 +15,11 @@ parser.add_argument('-d', '--depth', help = 'Define depth if looking into a fold
 
 args = parser.parse_args()
 
-# API init
-API_KEY = '778os4v2g59Cp2k5smbjvtv4jwx40dYhmYm8TW86JbeA4dYJlE60EqDouAi4XLFr'
+# API init, put a key in the API_KEY.txt file
+API_KEY_TXT = open("API_KEY.txt", 'r')
+API_KEY = API_KEY_TXT.read()
+API_KEY_TXT.close()
+
 api = cloudconvert.Api(API_KEY)
 
 def get_extension(filename) :
