@@ -4,6 +4,10 @@
 
 font-os is an icon font containing Operating System logos to be used on your website.
 
+## This fork ##
+
+I used these icons for a rEFInd bootloader theme. All that's different in this fork is the addition of the convert.py script, a simple script to quickly change the extension of the icons. I needed icns, but every extension is possible.
+
 ## Usage ##
 
 *Note:* All brand icons are trademarks of their respective owners and should only be used to represent the company or product to which they refer.
